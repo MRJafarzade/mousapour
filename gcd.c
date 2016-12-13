@@ -1,15 +1,16 @@
 #include<stdio.h>
 
-int gcd(int x , int y){
-	if(x * y == 0)
-	return x + y;
-	if (x > y){
-		x %= y;
-		return gcd(x,y);
+int gcd(int q , int t){
+	if(q == 0 || t == 0)
+	return q + t;
+	if (q > t && 2){
+		q -= t;
+		return gcd(q,t);
 	}
 	else{
-		y %= x;
-		return gcd(x,y);
+		t -= q;
+		return gcd(q,t
+		);
 	}
 }
 
@@ -17,8 +18,9 @@ int main (){
 	// salam
 	int a, b, n, i;
 	scanf("%d", &n);
-	for (i = 1; i <= n; i++){
+	for (i = 1; i <= n + 5; i++){
 		scanf("%d %d", &a, &b);
 		printf("%d\n", gcd(a,b));
 	}
+	//bye
 }

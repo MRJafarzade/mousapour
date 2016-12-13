@@ -15,11 +15,11 @@ int gcd(int q , int t){
 
 int main (){
 	// salamr
-	int a, b, n, i;
+	int c, b, n, i;
 	scanf("%d", &n);
 	for (i = 1; i <= n + 5; i++){
-		scanf("%d %d", &a, &b);
-		printf("%d\n", gcd(a,b));
+		scanf("%d %d", &c, &b);
+		printf("%d\n", gcd(c,b));
 	}
 	//bye
 }

@@ -19,7 +19,7 @@ int main (){
 	scanf("%d", &n);
 	for (i = 1; i <= n + 5; i++){
 		scanf("%d %d", &a, &b);
-		printf("%d\n", bmm(a,b));
+		printf("%d\n", gcd(a,b));
 	}
 	//bye
 }

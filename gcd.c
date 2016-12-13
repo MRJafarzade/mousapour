@@ -14,6 +14,7 @@ int gcd(int x , int y){
 }
 
 int main (){
+	// salam
 	int a, b, n, i;
 	scanf("%d", &n);
 	for (i = 1; i <= n; i++){
